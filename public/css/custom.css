@@ -1,0 +1,32 @@
+
+.bg-main {
+    background: #990036;
+}
+
+.color-main a p {
+    color:#fff;
+}
+
+.color-main-two a  i {
+    color:#fcbe15;
+}
+/*
+.bg-sidebar {
+
+} */
+
+.card-primary.card-outline {
+    border-color: #990036;
+}
+
+.text-main {
+    color:#990036;
+}
+
+.login-page{
+    background-color: #990036;
+}
+
+.login-logo a{
+    color:#fff;
+}

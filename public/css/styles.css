@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    /* background: #920d3c; */
+}
+
+input,
+button,
+textarea,
+select {
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #88455e;
+    color: #920d3c;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100%;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+select {
+    padding: 13px;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #88455e;
+    display: block;
+    margin-top: 20px;
+}
+button {
+    background: #88455e;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+nav.menu {
+    /* background-color: red; */
+    border-bottom: 2px solid #88455e;
+    margin: 0;
+    background-color: #920d3c;
+}
+nav.menu ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    position: sticky !important;
+}
+
+nav.menu ul li {
+    margin: 10px 10px 0 10px;
+    font-size: 1em;
+    padding: 5px;
+}
+
+nav.menu ul li:last-child {
+    margin-right: 9%;
+}
+
+nav.menu ul li a {
+    text-decoration: none;
+    color: #ffbec7;
+    font-weight: bold;
+}
+nav.menu ul li a:hover {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+main {
+    width: 100%;
+}
+
+/* Imagem Inicial */
+
+.img-inicial {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+        url(../img/handHand.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.diversos {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.diversos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+.diversos div img {
+    /* background-color: #88455e; */
+    border-radius: 50%;
+    width: 150px;
+    height: 200px;
+}
+
+.diversos div p {
+    color: #920d3c;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* footer */
+
+footer {
+    background: #920d3c;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .info section {
+    padding: 20px;
+}
+
+footer .info section h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer .info section ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .info section ul li {
+    margin: 10px 10px 10px 0;
+    /* border-bottom: 1px solid #fff; */
+}
+footer .info section ul li:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .info section ul li a {
+    color: #ffbec7;
+}
+
+footer .copy {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* about */
+
+.about,
+.contact {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    height: 100vh;
+}
+
+.contact {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    height: 100vh;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+/* contact */
+.contact .texto {
+    width: 250px;
+    margin-right: 20px;
+}
+.contact .texto p {
+    line-height: 30px;
+    font-size: 16px;
+    color: #88455e;
+}
+.contact .formulario {
+    flex: 1;
+}
+.contact .formulario h4 {
+    font-size: 28px;
+    border-bottom: 1px solid #ffbec7;
+}
+
+.contact .formulario button {
+    display: block;
+    margin-top: 10px;
+}
+
+.text-error {
+    color: rgba(196, 9, 9, .8);
+    text-align: right;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/* sidebar */
+
+.sidebar {
+
+}
